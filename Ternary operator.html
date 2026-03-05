@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ternary Operator</title>
+</head>
+
+<body>
+    <script>
+        
+        // SECTION 6 – Ternary (56–60)
+
+        // 1. If age >= 18 print "Adult" else "Minor"
+        let age = 12;
+        age >= 18 ? console.log("adult") : console.log("Minor");
+
+        // 2. If marks >= 50 print "Pass" else "Fail"
+        let marks = 45;
+        marks >= 50 ? console.log("Pass") : console.log("fail");
+
+        // 3. If number % 2 == 0 print "Even" else "Odd"
+        let number = 10;
+        number % 2 == 0 ? console.log("Even") : console.log("Odd");
+
+        // 4. Nested ternary for grades
+        let mark = 70;
+        mark >= 90 ? console.log("Grade A") :
+            mark >= 70 ? console.log("Grade B") :
+                mark >= 50 ? console.log("Grade c") : console.log("fail");
+
+        // 5. Check number positive or negative using ternary
+        let n = -5;
+        n >= 0 ? console.log("positive") : console.log("negative");
+
+    </script>
+</body>
+
+</html>
